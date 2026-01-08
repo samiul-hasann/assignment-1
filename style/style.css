@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Shared Style  */
 body {    
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -24,6 +26,8 @@ a {
     transition: background-color 0.3s ease;
 }
 
+
+/* Navbar Section */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -36,4 +40,13 @@ a {
     display: flex;
     list-style: none;
     gap: 20px;
+}
+
+
+/* hero section */
+.hero {
+    background-image: url(/assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
 }
