@@ -45,7 +45,7 @@ a {
 
 /* hero section */
 .hero {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     height: 91vh;
