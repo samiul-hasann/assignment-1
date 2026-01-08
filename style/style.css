@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn {
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 7%;
+    height: 92px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
