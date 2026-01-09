@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Shared Style  */
+/* ----------Shared Style----------  */
 body {    
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -27,7 +27,7 @@ a {
 }
 
 
-/* Navbar Section */
+/* ----------Navbar Section---------- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ a {
 }
 
 
-/* hero section */
+/* ----------hero section---------- */
 .hero {
     background-image: url(../assets/hero-bg.png);
     background-size: cover;
@@ -147,4 +147,68 @@ a {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+
+/* ----------Problem Section---------- */
+.problem-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.problem-container {
+    
+    margin: 120px 120px 0;
+    
+    text-align: center;
+}
+
+.problem-container h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.problem-container p {
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.problem-container-cards {
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    
+}
+
+.problem-container-cards-items {
+    width: 322px;
+    height: 322px;
+    /* border: 1px solid green; */
+    background-color: white;
+    box-shadow: 10px 2px 10px rgba(128, 128, 128, 0.384);
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem-container img{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.problem-container-cards h3 {
+    color: #001931;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
