@@ -224,7 +224,7 @@ a {
     
 }
 
-.solution-section img{
+.solution-container img{
     width: 600px;
     height: 600px;
 }
@@ -256,4 +256,42 @@ a {
 
 .fa-circle-check {
     color: green;
+}
+
+
+/* ----------Early Access Section---------- */
+.early-access-section {
+    padding: 120px;
+}
+
+.early-access-container {
+    background-color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.early-access-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.early-access-container p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.early-access-container p:nth-of-type(1){
+    width: 580px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.early-access-container .btn {
+    margin-bottom: 16px;
 }
