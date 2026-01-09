@@ -307,7 +307,7 @@ a {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 80px;
 }
 
