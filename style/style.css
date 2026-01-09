@@ -212,3 +212,48 @@ a {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+
+/* ----------Solution Section---------- */
+.solution-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: min(16px, 5vw);
+    padding: 120px;
+    
+}
+
+.solution-section img{
+    width: 600px;
+    height: 600px;
+}
+
+.solution-features p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.solution-features h2 {
+    font-size: 48px;
+    width: 600px;
+    margin-bottom: 16px;
+}
+
+.solution-features p:nth-of-type(2)  {
+    font-weight: 400;
+    color: #627382;
+    width: 460px;
+    padding-bottom: 40px;
+}
+
+.solution-features li {
+    padding-bottom: 16px;
+    list-style: none;
+}
+
+.fa-circle-check {
+    color: green;
+}
