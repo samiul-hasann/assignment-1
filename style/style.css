@@ -23,7 +23,19 @@ a {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #3a7c56;
+    box-shadow: 0 6px 15px rgba(70, 145, 101, 0.4);
+    transform: translateY(-2px);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(137, 138, 137, 0.3);
 }
 
 
@@ -71,6 +83,7 @@ a {
     left: 10px;
     top: 25px;
 }
+
 
 .outer {
     width: 16px;
@@ -149,6 +162,11 @@ a {
     font-size: 16px;
 }
 
+.btn-play:hover {
+    background-color: transparent;
+    box-shadow: 0 6px 15px rgba(128, 128, 128, 0.329);
+}
+
 
 /* ----------Problem Section---------- */
 .problem-section {
@@ -196,6 +214,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
+}
+
+.problem-container-cards-items:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+    transform: scale(1.05);
 }
 
 .problem-container img{
@@ -286,7 +311,8 @@ a {
     color: #627382;
 }
 
-.early-access-container p:nth-of-type(1){
+/* .early-access-container p:nth-of-type(1){ */
+.early-access-container > div > p:first-of-type {
     width: 580px;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -294,6 +320,16 @@ a {
 
 .early-access-container .btn {
     margin-bottom: 16px;
+}
+
+.two-msg {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.two-msg p {
+    margin: 0;
 }
 
 
@@ -307,8 +343,8 @@ a {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    padding: 80px;
+    align-items: center;
+    padding: 80px 0;
 }
 
 .footer-container h5 {
@@ -330,11 +366,10 @@ hr {
     border: none;
     height: 1.5px;
     background-color: #3c3d41;
-    /* margin: 30px 0; */
+    margin: 30px 0;
 }
 
 .copyright {
     color: white;
     text-align: center;
-    margin-top: 20px
 }
